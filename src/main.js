@@ -4,18 +4,10 @@ import wrap from './dom/wrap'
 import readProp from './props/readProp'
 import forEach from './props/forEach'
 
-const dom = {
+export default {
 	isDirty,
+	forEach,
+	readProp,
 	toHTML,
 	wrap
-}
-
-const props = {
-	readProp,
-	forEach
-}
-
-export default {
-	dom,
-	props
 }
