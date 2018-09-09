@@ -23,5 +23,19 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "description": "This repo contains core functionality and utilities used by js-forms and it's plugin ecosystem.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-forms/core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-forms/core/issues"
+  },
+  "homepage": "https://github.com/js-forms/core#readme"
 }
