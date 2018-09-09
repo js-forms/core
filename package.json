@@ -1,14 +1,17 @@
 {
-  "name": "rollup-starter-lib",
+  "name": "@js-forms/core",
   "version": "1.0.0",
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
-  "dependencies": {
-    "ms": "^2.0.0"
-  },
+  "main": "dist/js-forms.core.cjs.js",
+  "module": "dist/js-forms.core.esm.js",
+  "browser": "dist/js-forms.core.umd.js",
+  "dependencies": {},
   "devDependencies": {
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "globby": "^8.0.1",
     "rollup": "^0.65.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-babel-minify": "^6.0.0",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-node-resolve": "^3.0.0"
   },

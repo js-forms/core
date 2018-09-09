@@ -1,12 +1,21 @@
-import ms from 'ms';
-import lunchtime from './lunchtime.js';
-import millisecondsUntil from './millisecondsUntil.js';
+import isDirty from './dom/isDirty'
+import toHTML from './dom/toHTML'
+import wrap from './dom/wrap'
+import readProp from './props/readProp'
+import forEach from './props/forEach'
 
-export default function howLongUntilLunch(hours, minutes) {
-	// lunch is at 12.30
-	if (hours === undefined) hours = 12;
-	if (minutes === undefined) minutes = 30;
+const dom = {
+	isDirty,
+	toHTML,
+	wrap
+}
 
-	var millisecondsUntilLunchTime = millisecondsUntil(lunchtime(hours, minutes));
-	return ms(millisecondsUntilLunchTime, { long: true });
+const props = {
+	readProp,
+	forEach
+}
+
+export default {
+	dom,
+	props
 }
