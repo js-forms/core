@@ -5,7 +5,8 @@ import readProp from './props/readProp'
 import forEach from './props/forEach'
 import JsForm from './forms/js-form';
 
-export default {
+
+export {
 	JsForm,
 	isDirty,
 	forEach,

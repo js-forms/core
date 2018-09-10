@@ -1,6 +1,6 @@
 {
   "name": "@js-forms/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/js-forms.core.cjs.js",
   "module": "dist/js-forms.core.esm.js",
   "browser": "dist/js-forms.core.umd.js",

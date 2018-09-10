@@ -1,7 +1,7 @@
 /*
 *  Checks if an element has been interacted with
 */
-export default isDirty = (el) => {
+export default (el) => {
     switch(el.type) {
         case "radio":
         case "checkbox":
